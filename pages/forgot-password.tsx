@@ -16,9 +16,11 @@ const forgotpassword = () => {
 
       <main className="main">
         <div>
-          <a href="/loginpage" className="BackButton">
-            Back
-          </a>
+          <Link href="/loginpage">
+            {" "}
+            <a className="BackButton">Back</a>
+          </Link>
+
           <div className="ForgotText">Forgot your Password</div>
           <div className="ForgotText1">
             Enter your email address, and we’ll send you an <br />
@@ -35,9 +37,9 @@ const forgotpassword = () => {
           >
             <p className="inner-btn">Send Me Instructions</p>
           </button>
-          <a href="/loginpage" className="cancelButton">
-            Cancel
-          </a>
+          <Link href="/loginpage">
+            <a className="cancelButton">Cancel</a>
+          </Link>
         </div>
       </main>
     </div>

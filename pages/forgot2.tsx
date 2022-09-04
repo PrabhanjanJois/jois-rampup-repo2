@@ -12,9 +12,11 @@ const forgot2 = () => {
 
       <main className="main">
         <div>
-          <a href="/forgot-password" className="BackButton">
-            Back
-          </a>
+          <Link href="/forgot-password">
+            {" "}
+            <a className="BackButton">Back</a>
+          </Link>
+
           <div className="ForgotText">Check your email</div>
           <div className="ForgotText1">
             We have sent password reset link to <br />
