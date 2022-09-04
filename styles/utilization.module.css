@@ -1,0 +1,473 @@
+.name {
+  font-size: 10px;
+  font-weight: 600;
+  position: absolute;
+  top: 65px;
+  left: 20px;
+}
+
+.nameInput {
+  box-sizing: border-box;
+  position: absolute;
+  width: 280px;
+  height: 30px;
+  left: 20px;
+  top: 85px;
+  background: #ffffff;
+  border: 1px solid #dcdce0;
+  border-radius: 6px;
+}
+.email {
+  font-size: 10px;
+  font-weight: 600;
+  position: absolute;
+  top: 65px;
+  left: 315px;
+}
+
+.emailInput {
+  box-sizing: border-box;
+  position: absolute;
+  width: 130px;
+  height: 30px;
+  left: 310px;
+  top: 85px;
+  background: #ffffff;
+  border: 1px solid #dcdce0;
+  border-radius: 6px;
+}
+.emailInput::placeholder {
+  font-weight: 1;
+  opacity: 0.5;
+}
+
+.nameInput::placeholder {
+  font-weight: 1;
+  opacity: 0.5;
+}
+
+.modalStartDate {
+  position: absolute;
+  width: 250px;
+  height: 14px;
+  left: 20px;
+  top: 130px;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  /* 212121 */
+}
+
+.modalStartDateInput {
+  box-sizing: border-box;
+  position: absolute;
+  width: 215px;
+  height: 30px;
+  left: 20px;
+  top: 150px;
+  background: #ffffff;
+  border: 1px solid #dcdce0;
+  border-radius: 6px;
+}
+
+.modalEndDate {
+  position: absolute;
+  width: 250px;
+  height: 14px;
+  left: 240px;
+  top: 130px;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  /* 212121 */
+  color: #212121;
+}
+
+.modalEndDateInput {
+  box-sizing: border-box;
+  position: absolute;
+  width: 215px;
+  height: 30px;
+  left: 240px;
+  top: 150px;
+  background: #ffffff;
+  border: 1px solid #dcdce0;
+  border-radius: 6px;
+}
+
+.modalEndDateInput::placeholder {
+  font-weight: 1;
+  opacity: 0.5;
+}
+
+.modalStartDateInput::placeholder {
+  font-weight: 1;
+  opacity: 0.5;
+}
+
+.monthCost {
+  position: absolute;
+  width: 250px;
+  height: 14px;
+  left: 20px;
+  top: 200px;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  /* 212121 */
+}
+
+.modalStartDateInput1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 145px;
+  height: 30px;
+  left: 20px;
+  top: 220px;
+  background: #ffffff;
+  border: 1px solid #dcdce0;
+  border-radius: 6px;
+}
+
+.modalEndDate2 {
+  position: absolute;
+  width: 250px;
+  height: 14px;
+  left: 175px;
+  top: 200px;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  /* 212121 */
+  color: #212121;
+}
+
+.modalEndDateInput2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 145px;
+  height: 30px;
+  left: 170px;
+  top: 220px;
+  background: #ffffff;
+  border: 1px solid #dcdce0;
+  border-radius: 6px;
+}
+
+.costYtd {
+  position: absolute;
+  width: 250px;
+  height: 14px;
+  left: 335px;
+  top: 200px;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  /* 212121 */
+}
+
+.ytdInput {
+  box-sizing: border-box;
+  position: absolute;
+  width: 145px;
+  height: 30px;
+  left: 325px;
+  top: 220px;
+  background: #ffffff;
+  border: 1px solid #dcdce0;
+  border-radius: 6px;
+}
+
+.modalProjectStatus {
+  position: absolute;
+  width: 140px;
+  height: 14px;
+  left: 20px;
+  top: 245px;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  /* 212121 */
+  color: #212121;
+}
+
+.modalProjectStatusInput {
+  box-sizing: border-box;
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  left: 20px;
+  top: 290px;
+  background: #ffffff;
+  border: 1px solid #dcdce0;
+  border-radius: 6px;
+}
+
+.modalEndDate21 {
+  position: absolute;
+  width: 250px;
+  height: 14px;
+  left: 225px;
+  top: 268px;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  /* 212121 */
+  color: #212121;
+}
+
+.modalEndDateInput21 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 220px;
+  top: 290px;
+  background: #ffffff;
+  border: 1px solid #dcdce0;
+  border-radius: 6px;
+}
+
+.costYtd2 {
+  position: absolute;
+  width: 250px;
+  height: 14px;
+  left: 335px;
+  top: 268px;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  /* 212121 */
+}
+
+.ytdInput2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 325px;
+  top: 290px;
+  background: #ffffff;
+  border: 1px solid #dcdce0;
+  border-radius: 6px;
+}
+
+.modalProjectStatus2 {
+  position: absolute;
+  width: 140px;
+  height: 14px;
+  left: 20px;
+  top: 305px;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  /* 212121 */
+  color: #212121;
+}
+
+.modalProjectStatusInput2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  left: 20px;
+  top: 350px;
+  background: #ffffff;
+  border: 1px solid #dcdce0;
+  border-radius: 6px;
+}
+
+.modalEndDate212 {
+  position: absolute;
+  width: 250px;
+  height: 14px;
+  left: 225px;
+  top: 328px;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  /* 212121 */
+  color: #212121;
+}
+
+.modalEndDateInput212 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 220px;
+  top: 350px;
+  background: #ffffff;
+  border: 1px solid #dcdce0;
+  border-radius: 6px;
+}
+
+.costYtd21 {
+  position: absolute;
+  width: 250px;
+  height: 14px;
+  left: 335px;
+  top: 328px;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  /* 212121 */
+}
+
+.ytdInput21 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 325px;
+  top: 350px;
+  background: #ffffff;
+  border: 1px solid #dcdce0;
+  border-radius: 6px;
+}
+
+.cancelBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px;
+  position: absolute;
+  width: 88px;
+  height: 42px;
+  left: 250px;
+  top: 437px;
+  /* white */
+  background: #ffffff;
+  /* cool-gray/300 */
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  /* cool-gray/900 */
+  color: #111928;
+  cursor: pointer;
+}
+
+.submitBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px;
+  position: absolute;
+  width: 90px;
+  height: 42px;
+  left: 350px;
+  top: 437px;
+  background: #f6f6f6;
+  border-radius: 6px;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  /* font-family: "Inter"; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  /* cool-gray/400 */
+  color: #9ca3af;
+  border: none;
+  cursor: pointer;
+}
+
+.addAnother {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px;
+  position: absolute;
+  width: 130px;
+  height: 35px;
+  left: 20px;
+  top: 390px;
+  /* white */
+  background: #ffffff;
+  /* cool-gray/300 */
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  /* cool-gray/900 */
+  color: #111928;
+  cursor: pointer;
+}
