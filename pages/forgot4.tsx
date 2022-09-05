@@ -27,9 +27,9 @@ const forgot4 = () => {
           </div>
           <button
             className="InstructionButton3"
-            onClick={() => {
-              router.push("/loginpage");
-            }}
+            // onClick={() => {
+            //   router.push("/loginpage");
+            // }}
           >
             <p className="inner-btn">Continue</p>
           </button>

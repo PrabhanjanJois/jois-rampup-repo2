@@ -31,9 +31,9 @@ const forgotpassword = () => {
           <div className="emailRectangle"></div>
           <button
             className="InstructionButton"
-            onClick={() => {
-              router.push("/forgot2");
-            }}
+            // onClick={() => {
+            //   router.push("/forgot2");
+            // }}
           >
             <p className="inner-btn">Send Me Instructions</p>
           </button>
